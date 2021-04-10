@@ -1,0 +1,83 @@
+html {
+  background: url(happy-sushi.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 0.28fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.tip-calculator {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+  background-color: rgb(106, 216, 148);
+  border-radius: 4px;
+}
+
+#bill-amount {
+  margin: 0 10px 0 10px;
+}
+
+#tip-amount {
+  margin: 0 10px 0 10px;
+}
+
+.tips {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/2;
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(106, 216, 148);
+  border-radius: 4px;
+}
+
+.tips h1 {
+  height: 30px;
+  width: auto;
+}
+
+.button {
+  margin: 10px;
+}
+
+.tip-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tip-list li:before {
+  content: "$";
+  margin-right: 4px;
+}
+
+.tip-list li {
+  font-size: 20px;
+}
+
+input {
+  text-align: center;
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+}
+
+label {
+  font-size: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+button {
+  margin-top: 5px;
+}
