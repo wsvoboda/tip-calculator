@@ -1,5 +1,7 @@
 # Tip Calculator
 
+You can access this site using this link: https://wsvoboda.github.io/tip-calculator/
+
 This site takes your bill amount, the percentage you would like to tip, and provides your total. 
 
 ![blanktipcalc](https://user-images.githubusercontent.com/78281930/114287885-75c6c280-9a30-11eb-997e-26d06b1cbc76.png)
