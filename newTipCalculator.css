@@ -8,18 +8,22 @@ html {
 }
 
 .main-container {
-  display: grid;
-  grid-template-columns: 1fr 0.28fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vh;
+  margin: auto;
 }
 
 .tip-calculator {
-  display: grid;
-  grid-column: 2/3;
-  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  margin: 10px 300px 0 300px;
   background-color: rgb(106, 216, 148);
   border-radius: 4px;
+  flex-wrap: wrap;
 }
 
 #bill-amount {
@@ -31,13 +35,14 @@ html {
 }
 
 .tips {
-  display: grid;
-  grid-column: 2/3;
-  grid-row: 2/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   margin-top: 20px;
   background-color: rgb(106, 216, 148);
   border-radius: 4px;
+  margin: 10px 300px 0 300px;
 }
 
 .tips h1 {
@@ -80,4 +85,8 @@ fieldset {
 
 button {
   margin-top: 5px;
+}
+
+.total-amount {
+  margin-bottom: 50px;
 }
