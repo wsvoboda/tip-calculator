@@ -4,11 +4,11 @@ You can access this site using this link: https://wsvoboda.github.io/tip-calcula
 
 This site takes your bill amount, the percentage you would like to tip, and provides your total. 
 
-![blanktipcalc](https://user-images.githubusercontent.com/78281930/114287885-75c6c280-9a30-11eb-997e-26d06b1cbc76.png)
+![image](https://user-images.githubusercontent.com/78281930/115104872-0f0a4300-9f21-11eb-9037-8f4d7a8b0b43.png)
 
 It also has a section that keeps track of the tips you left previously.
 
-![afterinfo](https://user-images.githubusercontent.com/78281930/114287903-9e4ebc80-9a30-11eb-82ba-973371ced6bb.png)
+![image](https://user-images.githubusercontent.com/78281930/115104881-277a5d80-9f21-11eb-9634-7164a8e71d0d.png)
 
 If the user accidentally enters an invalid input (the enter letters, too many decimal points, spaces, etc), the site will alert them to enter valid numbers only.
 
