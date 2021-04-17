@@ -92,3 +92,44 @@ button {
 .total-amount {
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  label {
+    font-size: 36px;
+  }
+
+  button {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .tip-calculator {
+    margin: none;
+    padding: none;
+  }
+
+  .tips {
+    margin: none;
+    padding: none;
+  }
+
+  .tips h1 {
+    font-size: 36px;
+  }
+
+  .tip-list li {
+    font-size: 28px;
+  }
+
+  .main-container {
+    margin: none;
+    padding: none;
+  }
+}
