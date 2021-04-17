@@ -52,8 +52,16 @@ html {
   width: auto;
 }
 
-.button {
+button {
   margin: 10px;
+  border: none;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+* {
+  outline: none;
 }
 
 .tip-list {
